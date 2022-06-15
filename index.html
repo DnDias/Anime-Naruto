@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="home.css" rel="stylesheet">
+    <title>Tela de Inicio</title>
+    <meta charset="utf-8">    
+</head>
+<header>
+    
+</header>
+
+<body>
+<main>
+    <div class="data1">
+        <div class="menu">
+            <div class="a">
+                <a href="historia.html"><strong>HISTÓRIA</strong></a>
+                <a href="origem.html"><strong>ORIGEM</strong></a>
+                <a href="time7.html"><strong>TIME 7</strong></a>
+            </div>
+        </div>
+
+            <div id="data"></div>
+    </div>        
+            <div class="logo">
+                <img src="imagem/naruto-138.png" alt="logo naruto">
+            </div>
+                    <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("data").innerHTML = day + "/" + month + "/" + year;
+                    </script>
+
+                <div class="fundo">
+                     <h1 id ="sinopse">SINOPSE</h1>
+                
+                     <p><em>Naruto é um jovem órfão habitante da Vila da Folha que sonha se tornar o quinto Hokage, 
+                     o maior guerreiro e governante da vila. Ao se graduar como ninja, descobre que tem um demônio 
+                     raposa selado dentro de si.</em></p>
+
+                     <p><em>Seu pai, o quarto Hokage, aprisionou a raposa no próprio filho quando a raposa ameaçava destruir 
+                     a Vila da Folha, sacrificando assim a própria vida. Agora Naruto vai contar com a ajuda dos colegas 
+                     Sakura e Sasuke e do professor dos três, Kakashi Hatake, para perseguir seu sonho e deter os ninjas 
+                     que planejam fazer mal. </em></p>
+                </div>
+                
+</main>
+</body>
+</html>
